@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Load the datasets
 dataset1 = np.loadtxt('Galaxy Sample 1.txt')  # Load Dataset 1
-dataset2 = np.loadtxt('Galaxy Sample 1.txt')  # Load Dataset 2
+dataset2 = np.loadtxt('Galaxy Sample 2.txt')  # Load Dataset 2
 
 # Process Dataset 1
 N_rows1 = dataset1.shape[0]  # Number of rows (galaxies) in Dataset 1
