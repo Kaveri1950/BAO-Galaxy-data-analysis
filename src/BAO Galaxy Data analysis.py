@@ -47,7 +47,8 @@ def compute_pairwise_distances(dataset):
             x2, y2, z2 = dataset[j]  # Coordinates of the second galaxy
 
             # Compute Euclidean distance
-            distance = np.sqrt((x1 - x2)*2 + (y1 - y2)2 + (z1 - z2)*2)
+            distance = np.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
+
 
             # Append the distance to the list
             distances.append(distance)
